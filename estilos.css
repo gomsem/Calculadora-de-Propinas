@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+    font-family: Ubuntu, sans-serif;
+    background-color: #ECECEC;
+}
+
+.titulo{
+    color: black;
+    text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.text{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.text2{
+    color: black;
+    text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.boton{
+	background-color: black;
+	border: 1px solid white;
+	color: white;
+	display: inline-block;
+	font-size: 16px;
+    padding: 15px;
+}
+
+.boton:hover {
+	border: 1px solid #fff;
+}
+
+form{
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #cccccc
+    border-radius: 1em;
+}
+
+form div + div{
+    margin-top: 1em;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea{
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+textarea{
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.button{
+    padding-left: 90px;
+}
+
+button{
+    margin-left: .5em;
+}

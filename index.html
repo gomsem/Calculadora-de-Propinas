@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Propinas</title>
+</head>
+<body>
+    
+    <div class="titulo">Calculadora de Propinas</div>
+    <br><br><br>
+
+
+        <form action="/my-handling-form-page" method="post">
+
+            <div class="text">
+                <label for="coste">Coste de la comida:</label>
+                <input type="number" id="numero1" />
+            </div>
+
+            <div class="text">
+                <label for="porcentage">Porcentaje de la propina:</label>
+                <input type="number" id ="numero2" placeholder="Poner el porcentaje en 0." />
+            </div>
+            
+            <div class="text">
+                <label for="people">Cantidad de personas:</label>
+                <input type="number" id="numero3" /><br><br><br><br>
+            </div>
+
+                <center><input type="button" class="boton" id="btn-agregar" value="Calcular propina" onclick="calcular()"></center>
+                    <br>
+
+                    <hr color="blue"></hr>  
+
+        </form>
+
+            <div class="text2" id="resultado1"></div><br>
+            <div class="text2" id="resultado2"></div>
+            <script src="main.js"></script>
+</body>
+</html>
